@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="507.0" prefWidth="899.0" styleClass="SearchBG" stylesheets="@../Stylepack/Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerClasses.SearchController">
+   <children>
+      <TextField fx:id="CountrywiseSearchTextField" layoutX="13.0" layoutY="57.0" prefHeight="37.0" prefWidth="327.0" promptText="Enter country name" />
+      <Button fx:id="CountrywiseSearchButton" layoutX="352.0" layoutY="57.0" mnemonicParsing="false" onAction="#setCountrywiseSearchButton" prefHeight="37.0" prefWidth="73.0" styleClass="SearchButton" stylesheets="@../Stylepack/Style.css" />
+      <TableView fx:id="coutrywiseTable" layoutX="13.0" layoutY="105.0" prefHeight="347.0" prefWidth="851.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.0">
+        <columns>
+          <TableColumn fx:id="countryNameCol" prefWidth="510.0" text="Country" />
+          <TableColumn fx:id="PlayerCountCol" prefWidth="357.0" text="Player Count" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="30.0" prefHeight="17.0" prefWidth="112.0" text="Country name" textFill="#a639ed">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="BacktoSearchMenuButton" layoutX="812.0" layoutY="462.0" mnemonicParsing="false" onAction="#setBacktoSearchMenuButton" prefHeight="37.0" prefWidth="73.0" styleClass="SearchBackButton" stylesheets="@../Stylepack/Style.css" />
+      <Label layoutX="623.0" layoutY="30.0" prefHeight="63.0" prefWidth="262.0" text="Countrywise Players" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

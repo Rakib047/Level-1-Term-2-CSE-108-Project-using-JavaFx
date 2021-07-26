@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="507.0" prefWidth="899.0" styleClass="SearchBG" stylesheets="@../Stylepack/Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerClasses.SearchController">
+   <children>
+      <TextField fx:id="PlayerSearchTextField" layoutX="14.0" layoutY="43.0" prefHeight="37.0" prefWidth="327.0" promptText="Enter player name" />
+      <Button fx:id="PlayerSearchButton" layoutX="348.0" layoutY="43.0" mnemonicParsing="false" onAction="#setPlayerSearchButton" prefHeight="37.0" prefWidth="73.0" styleClass="SearchButton" stylesheets="@../Stylepack/Style.css" />
+      <TableView fx:id="table" layoutX="13.0" layoutY="104.0" prefHeight="347.0" prefWidth="851.0" stylesheets="@../Stylepack/Style.css" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.0">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="165.0" text="Name" />
+          <TableColumn fx:id="countryCol" prefWidth="129.0" text="Country" />
+            <TableColumn fx:id="clubCol" prefWidth="116.0" text="Club" />
+            <TableColumn fx:id="ageCol" prefWidth="56.0" text="Age" />
+            <TableColumn fx:id="heightCol" prefWidth="61.0" text="Height" />
+            <TableColumn fx:id="positionCol" prefWidth="119.0" text="Position" />
+            <TableColumn fx:id="jerseyCol" prefWidth="97.0" text="Jersey No." />
+            <TableColumn fx:id="salaryCol" prefWidth="115.0" text="Weekly Salary" />
+        </columns>
+      </TableView>
+      <Button fx:id="BacktoSearchMenuButton" layoutX="813.0" layoutY="456.0" mnemonicParsing="false" onAction="#setBacktoSearchMenuButton" prefHeight="37.0" prefWidth="73.0" styleClass="SearchBackButton" stylesheets="@../Stylepack/Style.css" />
+      <Label layoutX="13.0" layoutY="14.0" prefHeight="17.0" prefWidth="112.0" text="Player Name" textFill="#a639ed">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="659.0" layoutY="23.0" prefHeight="63.0" prefWidth="226.0" text="Search by Name" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

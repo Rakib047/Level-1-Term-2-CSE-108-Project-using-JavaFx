@@ -1,0 +1,375 @@
+.LoginBG{
+    -fx-background-image: url("/ImageResource/LoginBG.jpg");
+}
+
+.text-field {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.LoginButton{
+    -fx-background-image: url("/ImageResource/LoginButtonNormal.png");
+}
+
+.LoginButton:hover{
+    -fx-background-image: url("/ImageResource/LoginButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.ShowClubs{
+    -fx-background-image: url("/ImageResource/ShowClubNormal.png");
+}
+
+.ShowClubs:hover{
+    -fx-background-image: url("/ImageResource/ShowClubHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.showClubsBG{
+    -fx-background-image: url("/ImageResource/ShowClubBG.jpg");
+}
+
+.showClubsBackButton{
+   -fx-background-image: url("/ImageResource/ShowClubBackButtonNormal.png");
+}
+
+.showClubsBackButton:hover{
+    -fx-background-image: url("/ImageResource/ShowClubBackButtonHover.jpg");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.MainMenuBG{
+    -fx-background-image: url("/ImageResource/MainMenuBG.jpg");
+}
+
+.MainMenuSearchButton{
+    -fx-background-image: url("/ImageResource/MainMenuSearchNormal.png");
+}
+
+.MainMenuSearchButton:hover{
+    -fx-background-image: url("/ImageResource/MainMenuSearchHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.ClubManagementButton{
+    -fx-background-image: url("/ImageResource/ManagementButtonNormal.jpg");
+}
+
+.ClubManagementButton:hover{
+    -fx-background-image: url("/ImageResource/ManagementButtonHover.jpg");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.ExitButton{
+    -fx-background-image: url("/ImageResource/ExitButtonNormal.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.ExitButton:hover{
+    -fx-background-image: url("/ImageResource/ExitButtonHover.png");
+}
+
+.SearchMenuBG{
+    -fx-background-image: url("/ImageResource/SearchMenuBG.png");
+}
+
+.PlayerNameButton{
+    -fx-background-image: url("/ImageResource/ByPlayerNormal.png");
+}
+.PlayerNameButton:hover{
+    -fx-background-image: url("/ImageResource/ByPlayerHover.jpg");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.CountryButton{
+    -fx-background-image: url("/ImageResource/ByCountryNormal.png");
+}
+
+.CountryButton:hover{
+    -fx-background-image: url("/ImageResource/ByCountryHover.jpg");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.PositionButton{
+    -fx-background-image: url("/ImageResource/ByPositionNormal.png");
+}
+
+.PositionButton:hover{
+    -fx-background-image: url("/ImageResource/ByPositionHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.SalaryButton{
+    -fx-background-image: url("/ImageResource/BySalaryNormal.png");
+}
+
+.SalaryButton:hover{
+    -fx-background-image: url("/ImageResource/BySalaryHover.jpg");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.MaxSalaryButton{
+    -fx-background-image: url("/ImageResource/ByMaxSalaryNormal.png");
+}
+
+.MaxSalaryButton:hover{
+    -fx-background-image: url("/ImageResource/ByMaxSalaryHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.MaxAgeButton{
+    -fx-background-image: url("/ImageResource/ByMaxAgeNormal.png");
+}
+
+
+.MaxAgeButton:hover {
+    -fx-background-image: url("/ImageResource/ByMaxAgeHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.MaxHeightButton{
+    -fx-background-image: url("/ImageResource/ByMaxHeightNormal.png");
+}
+
+.MaxHeightButton:hover{
+    -fx-background-image: url("/ImageResource/ByMaxHeightHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #A639ED;
+}
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+.table-view .cell{
+    -fx-cell-size: 35;
+    -fx-alignment: center-left;
+    -fx-background-color: #3D003E;
+    -fx-border-color: #3D003E;
+    -fx-text-fill: lightgray;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+
+}
+.table-row-cell:selected {
+    -fx-background-color: whitesmoke;
+    -fx-text-background-color:  #A639ED;
+}
+
+/* scroll bar starts here */
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color:derive( #3D003E,80%);
+
+    -fx-background-radius: 2em;
+    -fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #3D003E,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+
+}
+
+.CountrywisePlayer{
+    -fx-background-image: url("/ImageResource/CountryWiseNormal.png");
+}
+
+.CountrywisePlayer:hover{
+    -fx-background-image: url("/ImageResource/CountryWiseHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+
+}
+
+.ClubYearlySalary{
+    -fx-background-image: url("/ImageResource/ClubSalaryNormal.png");
+}
+
+.ClubYearlySalary:hover{
+    -fx-background-image: url("/ImageResource/ClubSalaryHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.SearchMenuBackButton{
+    -fx-background-image: url("/ImageResource/SearchMenuBackButton.png");
+    /*-fx-border-color:black;*/
+    /*-fx-border-width: 2 2 2 2 ;*/
+}
+
+.SearchMenuBackButton:hover{
+    -fx-background-image: url("/ImageResource/SearchMenuBackButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.SearchBG{
+ -fx-background-image: url("/ImageResource/SearchBG.jpg");
+}
+
+.SearchButton{
+    -fx-background-image: url("/ImageResource/SearchButtonNormal.png");
+}
+
+
+.SearchButton:hover{
+    -fx-background-image: url("/ImageResource/SearchButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.SearchBackButton{
+    -fx-background-image: url("/ImageResource/SearchBackNormal.png");
+}
+
+.SearchBackButton:hover{
+    -fx-background-image: url("/ImageResource/SearchBackHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.BuySellBG{
+    -fx-background-image: url("/ImageResource/BuySellBG.jpg");
+}
+
+.ShowSalaryButton{
+    -fx-background-image: url("/ImageResource/ShowSalary.png");
+}
+
+.ShowSalaryButton:hover{
+    -fx-background-image: url("/ImageResource/ShowSalaryHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.BuyPlayerButton{
+    -fx-background-image: url("/ImageResource/BuyPlayerButton.png");
+}
+.BuyPlayerButton:hover{
+    -fx-background-image: url("/ImageResource/BuyPlayerButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.SellPlayerButton{
+    -fx-background-image: url("/ImageResource/SellPlayerButton.png");
+}
+
+.SellPlayerButton:hover{
+    -fx-background-image: url("/ImageResource/SellPlayerButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.BuySellMenuBack{
+   -fx-background-image: url("/ImageResource/BuySellMenuBackButton.png");
+}
+.BuySellMenuBack:hover{
+    -fx-background-image: url("/ImageResource/BuySellMenuBackButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#BF32CE 0%, #AD37E3 25%, #37003C 75%, #37003C 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell:even { /* <=== changed to even */
+    -fx-background-color: linear-gradient(to right, #AD37E3 25%, #37003C 75%, #37003C 100%);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.list-cell:odd { /* <=== changed to even */
+    -fx-background-color: linear-gradient(to right, #AD37E3 25%, #37003C 75%, #37003C 100%);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.list-cell:filled:hover {
+    /*-fx-background-color: linear-gradient(#BF32CE 0%, #AD37E3 25%, #37003C 75%, #37003C 100%);*/
+    /*-fx-background-color: linear-gradient(#BF32CE 0%, #AD37E3 25%, #37003C 75%, #37003C 100%);*/
+    -fx-background-color: #37003C;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.BuyPlayerBG{
+    -fx-background-image: url("/ImageResource/BuyBG.jpg");
+}
+
+.SellButton{
+    -fx-background-image: url("/ImageResource/SellButton.png");
+}
+
+.SellButton:hover{
+    -fx-background-image: url("/ImageResource/SellButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.BuyButton{
+    -fx-background-image: url("/ImageResource/BuyButton.png");
+}
+
+.BuyButton:hover{
+    -fx-background-image: url("/ImageResource/BuyButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.showButton{
+    -fx-background-image: url("/ImageResource/showButton.png");
+}
+
+.showButton:hover{
+    -fx-background-image: url("/ImageResource/showButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.NotFound{
+    -fx-background-image: url("/ImageResource/NoPlayerFoundBG.jpg");
+}
+
+.closeWindow{
+    -fx-background-image: url("/ImageResource/closeWindow.jpg");
+}
+
+.closeWindow:hover{
+    -fx-background-image: url("/ImageResource/closeWindowHover.jpg");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+.updateButton{
+    -fx-background-image: url("/ImageResource/updateButton.png");
+}
+
+.updateButton:hover{
+    -fx-background-image: url("/ImageResource/updateButtonHover.png");
+    -fx-effect: dropshadow(three-pass-box, black, 50, 0, 0, 0);
+}
+
+
+
+
+
+

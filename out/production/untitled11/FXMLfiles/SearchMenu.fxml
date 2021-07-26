@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="850.0" styleClass="SearchMenuBG" stylesheets="@../Stylepack/Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerClasses.MenuController">
+   <children>
+      <Button fx:id="PlayerNameButton" layoutX="206.0" layoutY="98.0" mnemonicParsing="false" onAction="#setPlayerNameButton" prefHeight="158.0" prefWidth="140.0" styleClass="PlayerNameButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="CountryNameButton" layoutX="351.0" layoutY="98.0" mnemonicParsing="false" onAction="#setCountryNameButton" prefHeight="158.0" prefWidth="140.0" styleClass="CountryButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="PositionNameButton" layoutX="494.0" layoutY="98.0" mnemonicParsing="false" onAction="#setPositionNameButton" prefHeight="158.0" prefWidth="140.0" styleClass="PositionButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="SalaryRangeButton" layoutX="640.0" layoutY="98.0" mnemonicParsing="false" onAction="#setSalaryRangeButton" prefHeight="158.0" prefWidth="140.0" styleClass="SalaryButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="CountrywisePlayerButton" layoutX="640.0" layoutY="266.0" mnemonicParsing="false" onAction="#setCountrywisePlayerButton" prefHeight="64.0" prefWidth="140.0" styleClass="CountrywisePlayer" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="MaximumSalaryButton" layoutX="206.0" layoutY="266.0" mnemonicParsing="false" onAction="#setMaximumSalaryButton" prefHeight="158.0" prefWidth="140.0" styleClass="MaxSalaryButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="MaximumAgeButton" layoutX="351.0" layoutY="266.0" mnemonicParsing="false" onAction="#setMaximumAgeButton" prefHeight="158.0" prefWidth="140.0" styleClass="MaxAgeButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="MaximumHeightButton" layoutX="494.0" layoutY="266.0" mnemonicParsing="false" onAction="#setMaximumHeightButton" prefHeight="158.0" prefWidth="140.0" styleClass="MaxHeightButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="ClubYearlySalaryButton" layoutX="640.0" layoutY="342.0" mnemonicParsing="false" onAction="#setClubYearlySalaryButton" prefHeight="82.0" prefWidth="140.0" styleClass="ClubYearlySalary" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="SearchMenuBackButton" layoutX="765.0" layoutY="448.0" mnemonicParsing="false" onAction="#setSearchMenuBackButton" prefHeight="36.0" prefWidth="66.0" styleClass="SearchMenuBackButton" stylesheets="@../Stylepack/Style.css" />
+   </children>
+</AnchorPane>

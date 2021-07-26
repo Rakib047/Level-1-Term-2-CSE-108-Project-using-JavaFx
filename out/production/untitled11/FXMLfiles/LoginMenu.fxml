@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="543.0" prefWidth="308.0" styleClass="LoginBG" stylesheets="@../Stylepack/Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerClasses.MenuController">
+   <children>
+      <TextField fx:id="clientNameTextField" layoutX="66.0" layoutY="338.0" prefHeight="25.0" prefWidth="196.0" promptText="Enter a club name" />
+      <Button fx:id="loginButton" layoutX="66.0" layoutY="376.0" mnemonicParsing="false" onAction="#clientConnction" prefHeight="40.0" prefWidth="196.0" styleClass="LoginButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="ShowClubButton" layoutX="66.0" layoutY="422.0" mnemonicParsing="false" onAction="#setShowClubButton" prefHeight="40.0" prefWidth="196.0" styleClass="ShowClubs" stylesheets="@../Stylepack/Style.css" />
+      <Label layoutX="68.0" layoutY="310.0" prefHeight="17.0" prefWidth="82.0" text="CLUB NAME" textFill="#60bf20">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

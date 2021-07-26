@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="824.0" styleClass="SearchBG" stylesheets="@../Stylepack/Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerClasses.SearchController">
+   <children>
+      <Label layoutX="362.0" layoutY="80.0" prefHeight="73.0" prefWidth="196.0" text="Club">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="50.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5611111111111111" centerY="0.8333333333333333" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9736841917037964" green="0.10818713158369064" blue="0.7284600138664246" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="351.0" layoutY="277.0" prefHeight="73.0" prefWidth="301.0" text="Total Yearly Salary">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="17.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5611111111111111" centerY="0.9571428571428571" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.11574073880910873" blue="0.7494598627090454" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="clubSalaryLabel" layoutX="328.0" layoutY="331.0" prefHeight="126.0" prefWidth="328.0" textFill="#de2eaa">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="clubNameLabel" layoutX="343.0" layoutY="145.0" prefHeight="126.0" prefWidth="431.0" textFill="#de2eaa">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <Button fx:id="showLabel" layoutX="367.0" layoutY="23.0" mnemonicParsing="false" onAction="#setClubYearlySalarySearchTextButton" prefHeight="49.0" prefWidth="134.0" styleClass="ShowSalaryButton" stylesheets="@../Stylepack/Style.css" />
+      <Button fx:id="BacktoSearchMenuButton" layoutX="738.0" layoutY="469.0" mnemonicParsing="false" onAction="#setBacktoSearchMenuButton" prefHeight="37.0" prefWidth="73.0" styleClass="SearchBackButton" stylesheets="@../Stylepack/Style.css" />
+   </children>
+</AnchorPane>
