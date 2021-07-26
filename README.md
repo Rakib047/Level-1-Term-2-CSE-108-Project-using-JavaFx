@@ -5,3 +5,6 @@ clubs can buy players from other clubs as well as sell players to each other.
 
 The whole project was written in "Intellij IDEA" IDE.To run the project,you need to add VM options and speicify your JavaFx libraray bin files there.
 
+Project done by Rakib Abdullah,ID-1905047.
+Email:nafis4627@gmail.com
+
